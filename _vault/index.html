@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <style>
+      body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 2em;
+      }
+      h2 {
+        font-weight: 300;
+        margin-top: 10px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      header {
+        text-align: center;
+        padding: 20px;
+      }
+
+      #gallery {
+        position: relative;
+        display: grid;
+        place-items: center;
+      }
+
+      #gallery img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+      }
+
+      #thumbnails {
+        display: flex;
+        overflow-x: auto;
+        gap: 1rem; /* Adjusted gap for consistent spacing */
+        padding: 10px 0;
+      }
+
+      #thumbnails img {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+        width: 100%;
+        max-width: calc(
+          33.33% - 1rem
+        ); /* Adjusted width to fit 3 images with a gap */
+        height: 150px;
+        object-fit: cover;
+      }
+
+      #thumbnails img:hover {
+        opacity: 1;
+      }
+
+      #content {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Motorcycle Gallery</h1>
+        <h2>Example Photo Gallery from an Akord webVault</h2>
+      </header>
+
+      <div id="gallery">
+        <img id="mainImage" src="" alt="Main Image" />
+        <div id="thumbnails"></div>
+        <div id="content"></div>
+      </div>
+    </div>
+
+    <script>
+      fetch("manifest.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const photoPaths = Object.keys(data.paths).filter((path) =>
+            path.startsWith("photos/")
+          );
+          const thumbnailsDiv = document.getElementById("thumbnails");
+          photoPaths.forEach((path, index) => {
+            console.log(path);
+            const img = document.createElement("img");
+            img.src = path;
+            img.onclick = () =>
+              (document.getElementById("mainImage").src = path);
+            thumbnailsDiv.appendChild(img);
+            document.getElementById("mainImage").src = photoPaths[0];
+          });
+        });
+
+      fetch("body.md")
+        .then((response) => response.text())
+        .then((data) => {
+          // Simple markdown to HTML conversion for the sake of this example
+          const content = data
+            .replace(/## (.+)/g, "<h2>$1</h2>")
+            .replace(/# (.+)/g, "<h1>$1</h1>")
+            .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+            .replace(/\n/g, "<br>");
+          document.getElementById("content").innerHTML = content;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "manifest": "arweave/paths",
+  "version": "0.1.0",
+  "index": {
+    "path": "index.html"
+  },
+  "paths": {
+    "body.md": {
+      "id": "c6470136d8f387e33298623ddd0b4ca8eab4d6b501c0f1318bb9ab54b5ead066"
+    },
+    "index.html": {
+      "id": "fdee04c431a9428cfa6607a4929d9e75ab0f793beefb51ef8207fda8fc653563"
+    },
+    "manifest.json": {
+      "id": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "photos/alexey-malakhov-LZVkAbIw74Q-unsplash.jpg": {
+      "id": "c97ed5832f8f4ff47f60c0331bff6132d031650c404c39c955370ef75da64d76"
+    },
+    "photos/benjamin-voros-84lRlahWjbU-unsplash.jpg": {
+      "id": "c6156761aa9aebd983a359e65fd1bcaf14cae3bc1fcb1ed717ae84f182815456"
+    },
+    "photos/chris-lawton-hUQa3_ovY5Y-unsplash.jpg": {
+      "id": "989b7237463cc2c7945610f9f976b07db46301b4c2bbc77aedcbf538dd883284"
+    },
+    "photos/fabio-spinelli-cPpmFa1OiGU-unsplash.jpg": {
+      "id": "7df67cb8ab52989df83758c4fdc2f1165966a0e9d54998d6d8df317862ad8d68"
+    },
+    "photos/garry-neesam-k77Zhd9j9oY-unsplash.jpg": {
+      "id": "ec46a832655560d09afd6a3301a6749595a428f7cd8f4bdef9def3e46f5d1bdc"
+    },
+    "photos/gijs-coolen-CRmcBeINxtg-unsplash.jpg": {
+      "id": "df2a37e7dcd62512b9d7c99421fc990143473b0ff38683f1158574a7cc927f9d"
+    },
+    "photos/joe-neric-vOHtxp0iH7A-unsplash.jpg": {
+      "id": "0d2e9784cd87f6d7078839cb944011d9158da85c95399d877362fd8a61c719b4"
+    },
+    "photos/laurenz-kleinheider-rBtIyNVT8K0-unsplash.jpg": {
+      "id": "656722acae210cb97da0089b911b4b021b8fa36051261f7e6e48359e694f18ad"
+    },
+    "photos/matt-bennett-YWWgHw4PY24-unsplash.jpg": {
+      "id": "1bd55809f3fbbc99e1fc1c080025636c775f1b7358073aab535dac68654d5fe1"
+    },
+    "photos/riccardo-chiarini-rygQNVsMO-A-unsplash.jpg": {
+      "id": "42bee9e2cf407d4b7ee91033ddf679d5f1af4c75aa55783d9ffbfed60bdff58a"
+    },
+    "photos/rudi-strydom-ugo3jZ_qtKo-unsplash.jpg": {
+      "id": "73d256a1c5af19a5faa1168ed6db1f48b40a61a9f986fff19db075c8d6361c02"
+    },
+    "photos/sherman-yang-KVOM2DnDM2Y-unsplash.jpg": {
+      "id": "a45964415f4c3635a32bf8f55a5b4bbfb8b1c188072d4b47645e55582196a311"
+    }
+  }
+}
