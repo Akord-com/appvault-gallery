@@ -1,16 +1,12 @@
-# Akord AppVault : Photo Gallery Demo
+# Akord AppVault: Photo Gallery Demo
 
-**Overview**
+## Overview
 
-This open-source demo provides developers with a step-by-step guide for using Akord's web3 digital vaults to deploy a permanent, dynamic website on the Arweave network. The source code illustrates how to load data and files directly from an Akord vault, offering a practical example of immutable, censorship proof web hosting with dynamically loaded content.
+This demo showcases how to use Akord Vaults to create a durable, interactive website on the Arweave network, featuring dynamically loaded content like HTML, JSON data, and images. It serves as a hands-on example of immutable, censorship-resistant web hosting.
 
-**Background**
+## Background
 
-Welcome to the README of our pioneering open-source project that shows you how to take full advantage of Akord's web3 digital vaults for permanent web hosting on the Arweave network. If you're a developer who's passionate about building long lasting, censorship proof, and immutable websites, then you've come to the right place!
-
-Akord's vaults are not just another storage solution; they are a significant innovation in Web3 data ownership and web publishing. Leveraging the Arweave blockchain, Akord's vaults offer an innovative approach to permanent data storage. The immutability of the Arweave network ensures that once you publish your website, it's there forever.
-
-But Akord takes it a step further by allowing you to publish dynamic websites capable of loading various types of data and files directly from its secure vaults. This means that you can have a permanent, censhorship proof website that is both dynamic and user-centric.
+Akord Vaults go beyond traditional storage, serving as a cornerstone for Web3 data ownership and web publishing. Utilizing the Arweave blockchain, these vaults deliver features like on-chain privacy, permanence, and file management. In this demo, you'll learn how to unify application logic, data, and control on-chain to deploy an enduring, interactive website.
 
 [Show me the demo](https://arweave.net/5OlDnd28hxVtDLnVkHdJE04vR_DtRvXspSi96j2yMRM)
 
