@@ -29,11 +29,11 @@ Follow these steps to get started:
 1. **Create/Login with Akord**: Head over to [akord.com](https://www.akord.com) and either sign in or create a new account.
 2. **Create a New Vault**: After logging in, create a new vault. Add a title, description, and tags as you see fit.
 3. **Upload Files**: Add your `index.html`, `body.md`, and the `photos` folder to your newly created vault.
-4. **Generate a Manifest**: Click on the [+] button within your vault and select 'Add Manifest'.
-5. **Transaction Confirmation**: Wait for the transactions to be confirmed on the network. This usually takes about 10 minutes. You can get updates from the 'Storage' sections on the left side menu.
-6. **Get File Info**: Click on the file menu under `manifest.json` and select 'File Info'.
-7. **Copy Permaweb URL**: Click on the 'copy permaweb url' button and paste that into your browser.
-8. **Site on Permaweb**: The URL you just copied is the permanent URL to your site on the permaweb.
+4. **Transaction Confirmation**: Wait for the transactions to be confirmed on the network. This usually takes about 10 minutes. You can get updates from the 'Storage' sections on the left side menu.
+5. **Generate a Manifest**: Click on the [+] button within your vault and select 'Add Manifest'.
+6. **Your Website Permaweb URL**: Click on the file menu under `manifest.json` and select 'File Info'. Click on the 'copy permaweb url' button and paste that into your browser.
+
+The URL you just copied is the permanent URL to your site on the permaweb. Use it for loading your website, point a DNS name to it, share it on social media.
 
 ## Tasks
 
