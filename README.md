@@ -2,11 +2,11 @@
 
 ## Overview
 
-This demo showcases how to use Akord Vaults to create a durable, interactive website on the Arweave network, featuring dynamically loaded content like HTML, JSON data, and images. It serves as a hands-on example of immutable, censorship-resistant web hosting.
+This demo guides you through using Akord Vaults to deploy an enduring, interactive, and censorship-proof website on the Arweave network, complete with dynamically loaded elements such as HTML, JSON data, and images. 
 
-## Background
+Akord Vaults are more than just storage solutions; they are functional building blocks for Web3 data ownership and online publishing. With the power of the Arweave blockchain, these vaults provide on-chain privacy, durability, and composability. Serving as a management hub that functions well into the future, the Vault offers specialized features like access control and version tracking, keeping a complete historical record of your website's evolutions.
 
-Akord Vaults go beyond traditional storage, serving as a cornerstone for Web3 data ownership and web publishing. Utilizing the Arweave blockchain, these vaults deliver features like on-chain privacy, permanence, and file management. In this demo, you'll learn how to unify application logic, data, and control on-chain to deploy an enduring, interactive website.
+Through this demo, you'll gain the know-how to integrate application logic, data, and on-chain controls to establish a lasting, interactive website.
 
 [Show me the demo](https://arweave.net/5OlDnd28hxVtDLnVkHdJE04vR_DtRvXspSi96j2yMRM)
 
